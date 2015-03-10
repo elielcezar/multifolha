@@ -1,54 +1,3 @@
-<?php include "header.php" ?>
-
-<nav id="topnav" class="navbar navbar-default" role="navigation">
-    <div class="container">
-      
-      <h1><a href="http://multifolha.com.br"><img src="img/logo.png" alt="Multifolha - Consultoria em Recursos Humanos" class="img-responsive logo" /></a></h1>
-
-      <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>   
-      </div> 
-
-      <div class="collapse navbar-collapse navbar-ex1-collapse">   
-         <div class="menu-secoes">
-         <ul id="menu-secoes" class="nav navbar-nav">
-              <li class="active"><a href="http://multifolha.com.br">Página Inicial</a></li>              
-              <li><a href="http://multifolha.com.br/servicos.php">Conheça Nossos Serviços</a></li>
-              <li><a data-toggle="pill" href="#contato">Contato</a></li>                          
-            </ul>  
-
-        </div>
-     </div><!-- /.navbar-collapse --> 
-
-  </div>  
-</nav>
-
- <div id="principal">
-
-<section id="topo">
-  <div class="conteudo-topo">   
-    <div class="container">   
-      <ul>
-        <li><a href="http://multifolha.com.br/servicos.php#terceirizacao-folha">Terceirização de Folha de Pagamento</a></li>
-        <li><a href="http://multifolha.com.br/servicos.php#consultoria-rh">Consultoria em Recursos Humanos</a></li>
-        <li><a href="http://multifolha.com.br/servicos.php#gestao-empregados-domesticos">Gestão de Pagamento de Empregados Domésticos</a></li>
-        <li><a href="http://multifolha.com.br/servicos.php#consultoria-trabalhista">Consultoria Trabalhista</a></li>
-      </ul>    
-      <div class="container-acao">
-        
-          <div class="col-sm-6"><div class="botao saiba-mais"><a href="http://multifolha.com.br/servicos.php">Saiba Mais</a></div></div>
-          <div class="col-sm-6"><div class="botao contato"><a href="#contato">Contato</a></div></div>
-       
-      </div>
-    </div>    
-</div>
-</section>
-
 <section id="contato">
   <div class="container">    
     <div class="row">      
@@ -96,9 +45,3 @@
     </div>
   </div>
 </section>
-
- </div>
-
-
-
- <?php include "footer.php" ?>
