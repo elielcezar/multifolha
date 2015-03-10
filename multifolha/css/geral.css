@@ -1,0 +1,379 @@
+html{height:100%;}
+
+body{
+    height: 100%;
+	padding: 0;			
+	font-family: "Open Sans", sans-serif;	
+	border-top: 5px solid #8ebe47;
+}
+
+a{
+	outline: 0 !important;
+	color: #8ebe47;
+}
+
+a:hover{color: #4f4f4f;}
+
+#principal p{	
+	font-size: 1.1em;
+	line-height: 24px;
+	margin: 20px 0;
+}
+
+.container{max-width: 790px}
+
+section {		
+	width: 100%;
+	min-width: 100%;	
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+#principal a{color: #172160;}
+
+#principal h1{	
+	font-weight: 700;
+	letter-spacing: -1px;
+    font-family: "Open Sans", sans-serif;
+}
+#principal h2{	
+	font-weight: 700;	
+	letter-spacing: -1px;
+	font-size: 1.5em;
+	text-transform: uppercase;	
+	padding-bottom: 15px;
+	margin-bottom: 25px;	
+    font-family: "Open Sans", sans-serif;
+}
+	#principal h2:after{
+		content: '';
+		width: 80px;
+		height: 5px;
+		background: #8ebe47;
+		margin-top: 10px;
+		display: block;
+	}
+
+#principal h3{	
+	font-weight: 300;
+	letter-spacing: -1px;
+    font-family: "Open Sans", sans-serif;
+}
+#principal h4{	
+	font-weight: 600;
+	letter-spacing: -1px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#principal i.fa{
+	margin-right: 10px;
+	color: #8ebe47;
+	font-size: 1.2em;
+}
+
+iframe{border: none !important;}
+
+
+/* formularios */
+form label{
+	margin-top: 7px;
+	font-weight: normal;
+}
+form input[type="text"],
+form textarea,
+form select,
+form .form-email,
+form input[type="password"]{
+	padding: 7px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #111 !important;
+	border: 1px solid #d1d1d1;	
+}
+form textarea{width: 100% !important;}
+form input[type="submit"]{	
+	width: 200px;	
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;	
+	text-transform: uppercase;
+	text-indent: -1px;
+	border: none;	
+	margin: 15px 25px 0 0;
+	background: #8ebe47;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+form input[type="submit"]:hover{
+	background: #4f4f4f;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#principal table{
+	margin: 25px 0;
+	width: 100%;
+}
+#principal table th{
+	padding: 10px;	
+	text-transform: uppercase;
+}
+#principal table a{color: #172160; font-weight: bold;}
+#principal table td{	
+	background: #fff;
+	padding: 7px;	
+}
+#principal table tr.even td{background: #f5f5f5;}
+#principal #messages{
+	float: left;
+	width: 100%;
+}
+/* abas */
+.tabs{
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.tabs a{
+	padding: 7px;
+	font-weight: bold;
+	color: #666;
+	text-transform: uppercase;
+}
+
+
+img.img-responsive{margin: auto;}
+
+
+/*-- titulos das paginas --*/
+#page-title{		
+	float: left;
+	width: 100%;    
+	font-weight: 700;	
+	font-size: 3em;
+    padding-bottom: 7px;
+    text-align: center;    
+}
+section{
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+
+.botao a{
+	width: 200px;	
+	font-weight: bold;	
+	font-size: 1em;
+	text-transform: uppercase;
+	text-indent: -1px;		
+	color: #fff !important;
+	padding: 10px;
+	margin: auto;
+	display: inline-block;	
+	background: #8ebe47;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.botao a:hover{
+	background: #4f4f4f;	
+	text-decoration: none;
+}
+
+
+fieldset legend{margin-bottom: 0;}
+
+/*--- MENU -----------------------------------------------------------------------------------------------*/
+#topnav{	
+	width: 100%;
+	border: none;		
+	border-radius: 0;		
+	background: #fff;
+	margin: 0;
+	padding: 0;	
+	top: 0;
+	z-index: 50;
+}
+
+#topnav .container{
+	max-width: 975px;
+	position: relative;
+}
+
+.navbar.navbar-default{
+	border: none;
+	box-shadow: none;
+	background: #fff;
+	padding: 0;		
+	margin-top: 10px;
+	border-radius: 0;
+}
+
+#topnav .logo{margin: 50px auto;}
+
+#menu-secoes{		
+	text-align: center;	
+	float: none;
+	border-top: none;	
+    z-index: 1;		
+	border-radius: 0;	
+}
+
+#menu-secoes li{	
+	display: inline-block;
+	float: none;
+}
+
+#menu-secoes li a{
+	text-transform: uppercase;
+	padding: 10px 30px;
+}
+
+#menu-secoes li.active a{
+	border-bottom: 3px solid #8ebe47;
+	background: #f5f5f5;
+}
+
+#menu-secoes a:hover,
+#menu-secoes li.active a:hover{
+	background: #8ebe47;
+	color: #fff;
+	border-bottom: 3px solid #999;
+}
+
+
+
+/*--- TOPO -----------------------------------------------------------------------------------------------*/
+section#topo{
+	color: #fff;	
+	text-align: center;	
+	padding: 95px 0;	
+	background-image:url("../img/bg_topo.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+section#topo h2{
+	font-size: 4em;
+	text-transform: uppercase;
+}
+
+section#topo ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;	
+	font-size: 20px;
+	font-weight: 600;	
+}
+
+section#topo ul li{
+	background: #8ebe47;
+	width: 100%;
+	margin: 5px 0;
+	padding: 5px 0;	
+	opacity: .9;
+	text-shadow: 1px 1px 1px #000;
+}
+
+section#topo .container-acao{
+	width: 100%;
+	background: #fff;
+	opacity: .9;
+	text-align: center;	
+	padding: 10px;
+}
+
+
+
+/*--- CONTEUDO ----------------------------------------------------------------*/
+
+#conteudo{float: left; width: 100%; }
+
+
+ 
+/*--- CONTATO -----------------------------------------------------------------*/
+
+#contato .container{max-width: 975px;}
+
+#contato form input{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#contato .mensagens{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+#contato .mensagens .erro{
+	width: 100%;	
+	background: #ffdcdc;
+	border: 1px solid #d33636;
+	color: #d33636;	
+}
+
+#contato .mensagens .sucesso{
+	width: 100%;	
+	background: #f0ffd9;
+	color: #476816;
+	padding: 0 15px;
+	border: 1px solid #8ebe47;	
+}
+
+
+/* like box */
+.fb-like-box.fb_iframe_widget{	
+	padding: 0;
+	margin: 0;
+}
+
+.fb_iframe_widget, 
+.fb_iframe_widget span, 
+.fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+  border: 0;
+}
+
+
+/*--- RODAPE -------------------------------------------------------------------*/
+footer{	
+	border-top: 5px solid #8ebe47;
+	background: #373038;
+	color: #fff;
+	float: left;
+	width: 100%;
+	margin-top: 25px;	
+	padding: 20px 0 10px 0;	
+	text-align: center;
+	font-size: .85em;
+}
+footer a{
+	font-weight: bold;	
+	color: #fff;
+}
+footer a:hover{color: #8ebe47;}
+
+
+
+
+/***************************************************************************************************/
+
+@media (max-width: 767px){	
+	#topnav #menu-secoes{
+		width: 100%; 		
+		margin: 0;
+	}
+	#topnav #menu-secoes li{
+		width: 100%; 		
+		text-align: center;
+	}
+}
+

@@ -1,0 +1,251 @@
+
+.front{font-size: 16px;}
+
+.front .container{overflow: hidden;}
+
+
+/*--- TOPO -----------------------------------------------------------------------------------------------*/
+section#topo{
+	background: transparent url("../img/bg_topo.jpg") top center no-repeat;
+}
+/*.front header{
+    height: 650px;
+    background: #000 url(../img/bg_topo_home.jpg) top center no-repeat;	
+}
+
+.front header .container{
+	position: relative; 
+	height: 100%;
+}
+
+.front header h1.logo a{float: left;}
+
+.front .telefone{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	padding: 10px 15px;
+	border: 1px solid #d2b55b;
+	color: #fff7d0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	font-weight: bold;
+}*/
+
+.front #topnav.fixed-top{	
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 50;
+}
+
+/*--- BLOCO 1 ---------------------------------------------------------------------------------------------*/
+.front #servicos{	
+	/*margin: 50px 0 100px 0;*/	
+    position: relative;
+}
+.servicos-geral{padding: 50px 0;}
+
+.servicos-geral .icon-para-elas,
+.servicos-geral .icon-para-eles{	
+    float: left;
+    width: 100%;    
+	overflow: hidden;	
+    padding: 0;    
+    margin: auto;    
+    position: relative;
+    cursor: pointer;
+}
+
+.servicos-geral .icon-para-elas a,
+.servicos-geral .icon-para-eles a{color: #fff !important}
+
+.servicos-geral .icon-para-elas img,
+.servicos-geral .icon-para-eles img{
+	opacity: .4;
+	transition: .5s; 
+	-webkit-transition: .5s;
+}
+    .servicos-geral .icon-para-elas:hover img,
+    .servicos-geral .icon-para-eles:hover img{opacity: .9;}
+
+.servicos-geral .icon-para-elas h3,
+.servicos-geral .icon-para-eles h3{	
+	height: 100%;	
+	text-align: center;
+	display: block !important;	
+	font-size: 2.1em;
+	font-weight: 800;
+	color: #fff;
+	text-transform: uppercase;			
+	position: absolute;
+	top: 0;
+	left: 0;	
+	padding: 30% 0;
+	letter-spacing: -1px;	    
+    width: 100% !important;
+}
+
+.servicos-geral .icon-para-elas h3:hover,
+.servicos-geral .icon-para-eles h3:hover{text-decoration: none;}
+
+.servicos-geral .icon-para-elas h3 strong,
+.servicos-geral .icon-para-eles h3 strong{	
+	padding-bottom: 7px;
+	background: transparent url(../img/bg_titulos.jpg) bottom center no-repeat;
+}
+
+/* servicos feminino */
+#servicos-feminino{    
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #111;
+    display: none;
+    text-align: center;
+    color: #fff;
+    padding: 0 0 100px 0;
+
+    /* -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;*/
+}
+
+#servicos-feminino .voltar{
+    cursor: pointer;
+    margin: 25px 0;
+    width: 100%;
+    font-weight: bold;
+}
+#servicos-feminino .row>div{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#servicos-feminino .icon{opacity: 1;}
+
+#servicos-feminino .icon a h4{
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#servicos-feminino .icon a:hover h4{color: #d2b55b;}
+
+#servicos-feminino .icon a:hover{text-decoration: none;}
+
+/*.front #servicos-feminino h3 a{	
+	font-size: 2.1em;
+	font-weight: 800;
+	color: #fff;
+	text-transform: uppercase;				
+	letter-spacing: -1px;	        
+    padding-bottom: 7px;
+	background: transparent url(../img/bg_titulos.jpg) bottom center no-repeat;
+}*/
+
+
+
+
+
+/*--- BLOCO 2 ---------------------------------------------------------------------------------------------*/
+.front #novidades{
+	background: transparent url(../img/bg_novidades_home.jpg) top center no-repeat;	
+	color: #fff;
+	padding: 50px 0 100px 0;
+}
+
+.front #novidades #carousel-novidades .view-noticias-home{	
+	overflow: hidden;	
+	margin-top: 50px;
+}
+.front #novidades #carousel-novidades .view-noticias-home .item{
+	text-align: center; 
+	overflow: hidden;			
+}
+.front #novidades #carousel-novidades .views-field-title a{
+	font-size: 2.85em;
+	color: #fff;	
+	margin-bottom: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+.front #novidades #carousel-novidades .views-field-field-chamada{
+	width: 100%;
+	margin: 20px 0;
+}
+
+.front #novidades #carousel-novidades .views-field-view-node a{
+	display: inline-block;
+	padding: 10px 25px;
+	border-radius: 5px;   
+	background: #bd9b31;
+	color: #fff;
+}
+	.front #novidades #carousel-novidades .views-field-view-node a:hover{
+		background: #ab881c;
+		text-decoration: none;
+	}
+
+.front #novidades #carousel-novidades .carousel-control{
+	width: 50px;
+	background: transparent;
+}
+ 
+/*--- BLOCO 3 ---------------------------------------------------------------------------------------------*/ 
+.front #produtos{padding-top: 25px;}
+
+.front #produtos #carousel-produtos .produto{	
+	width: 16.66%;
+	float: left;
+	text-align: center;
+} 
+.front #produtos #carousel-produtos .carousel-inner{	
+	float: left;
+	width: 100%;
+}
+.front #produtos #carousel-produtos .carousel-indicators{	
+	margin-top: 50px;
+	position: relative;
+	float: left;
+	opacity: .5;
+
+}
+
+/*--- BLOCO 4 ---------------------------------------------------------------------------------------------*/
+.front #fachada{	
+	background: transparent url(../img/fachada.jpg) top center no-repeat;
+	/*background-width: 100%;*/
+	min-height: 580px;	
+} 
+
+
+/*--- BLOCO 5 ---------------------------------------------------------------------------------------------*/
+.front #contato {
+	color: #f5f5f5;
+	padding: 100px 0;
+}
+.front #contato h2{
+	font-size: 1.4em;
+	margin-bottom: 25px;
+}
+.front #contato p{text-align: center;}
+
+/*--- BLOCO 6 ---------------------------------------------------------------------------------------------*/
+.front #mapa{
+	padding: 0;
+	margin: 0;
+	border-top: 5px solid #d8b45c;
+	color: #fff;
+} 
+
+
+
+
+
+
